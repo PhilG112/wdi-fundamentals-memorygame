@@ -94,3 +94,20 @@ footer {
   color: #F15B31;
   font-weight: 700;
 }
+
+ul {
+  list-style: none;
+}
+
+input {
+  border: 2px solid #dfdfdf;
+  padding: 8px 10px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+input:focus, input:active, input:hover,
+button:focus, button:active, button:hover {
+  outline: none;
+}
