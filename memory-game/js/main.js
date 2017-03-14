@@ -42,7 +42,7 @@ function clearStates() {
 }
 
 function flipCard() {
-    var cardId = this.getAttribute("data-id");    
+    var cardId = this.getAttribute("data-id");  
     this.setAttribute("src", cards[cardId].cardImage);
     cardsInPlay.push(cards[cardId].rank);
     if(cardsInPlay.length > 1){
